@@ -1,0 +1,7 @@
+test_id,kpi_id,rule_type,comparator,target_value,secondary_value,min_sample_size,lookback_window,group_by,severity,on_fail_action,expected_update_latency,notes
+T_EN_UPTIME_001,ISO37120-EN-004,threshold,>=,99.5,,,30d,citywide,warn,raise_alert,24h,Streetlight network uptime over 30d must be >= 99.5%.
+T_EN_UPTIME_002,ISO37120-EN-004,completeness,>=,0.98,,,30d,citywide,critical,open_ticket,24h,Hourly coverage ratio >= 0.98 (no missing hours across devices).
+T_PS_RESP_001,ISO37122-PS-002,threshold,<,8,,100,30d,zone_id,critical,open_ticket,1h,Average response time < 8 minutes with n>=100 per zone over 30d.
+T_MB_PARK_001,ISO37122-MB-007,conformance,>=,95,,200,12m,zone_id,warn,raise_alert,72h,Parking occupancy accuracy >= 95% with n>=200 audits over 12m.
+T_ENV_AQI_001,ITUY4900-EN-002,threshold,>=,90,,,7d,zone_id,warn,raise_alert,6h,AQI readings within WHO safe range >= 90% over 7d per zone.
+T_ENV_AQI_002,ITUY4900-EN-002,completeness,>=,0.95,,,7d,station_id,info,raise_alert,6h,Per-station hourly coverage ratio >= 0.95 over 7d.

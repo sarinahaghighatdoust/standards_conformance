@@ -1,0 +1,1 @@
+kpi_id,standard,indicator_name,indicator_definition,unit,calculation_method,data_owner,data_source_table,field_paths,temporal_resolution,spatial_resolution,aggregation_window,latency_sla,data_quality_checks,privacy_classification,security_scope_required,kpi_owner_role,notes

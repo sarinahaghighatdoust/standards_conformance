@@ -1,0 +1,3 @@
+[OK] All test harness KPI ids are defined in KPI mapping.
+[INFO] KPI counts by standard: {'ISO 37120': 1, 'ISO 37122': 2, 'ITU Y.4900': 1}
+[INFO] Example complete. For full validation, plug into your data pipeline.

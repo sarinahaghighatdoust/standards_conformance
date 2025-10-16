@@ -1,0 +1,4 @@
+test_id,kpi_id,rule_type,comparator,target_value,secondary_value,min_sample_size,lookback_window,group_by,severity,on_fail_action,expected_update_latency,notes
+TEST-PS-RT-001,ISO37120-PS-001,threshold,<,8.0,,100.0,30d,zone_id,critical,open_ticket,1h,City target < 8 min
+TEST-EN-UP-004,ISO37120-EN-004,threshold,>=,0.995,,,30d,citywide,warn,raise_alert,10m,Uptime >= 99.5%
+TEST-MO-ACC-010,ISO37122-MO-010,threshold,>=,0.95,,200.0,12m,zone_id,info,raise_alert,24h,Accuracy >= 95% with n>=200 audits
